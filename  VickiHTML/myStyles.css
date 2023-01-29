@@ -1,0 +1,40 @@
+body {
+    font: 'Roboto', sans-serif;
+    font-size: 20px;
+    background-color: lightgrey;
+    padding: 20px;
+    color: black;
+    text-align: center;
+    font-family:cursive
+    
+}
+
+h1, h2 {
+    text-align: center;
+    color: darkgrey;
+    background-color: blueviolet;
+    font-style: italic;
+    font-family:cursive
+    
+}
+
+.favourite-places-to-stay {
+    list-style-type: none;
+}
+
+.circular-image {
+    border-radius: 50%; 
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table-title {
+    color:indigo;
+
+}
+td{
+    font-weight: bold;
+}
