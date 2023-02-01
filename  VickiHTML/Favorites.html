@@ -5,19 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Favourites</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Roboto:ital,wght@1,300&family=Shadows+Into+Light&display=swap" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <link rel = "stylesheet" href="myStyles.css" >
+    <link rel = "stylesheet" href="/Users/vickigibbison/Documents/GetIntoTech2023/Week1AboutMe/ VickiHTML/myStyles.css" >
     
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary mynavbar">
-        <div class="container-fluid">
+    <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary mynavbar">
+        <div class="container-fluid" >
           <a class="navbar-brand" href="#"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -37,71 +36,85 @@
           </div>
         </div>
       </nav>
-    
+    </style> 
       <h2 id="favthingstodo" > My Favourite Things To Do </h2>
 
     <p>As I mentioned earlier, In our spare time as a family we enjoy going away in our motorhome and taking the paddleboards to new places.  We have spent both summer's exploring the beautiful country we live in.  In 2021 we went to the Pembrokeshire coast for 10 days, travelling around and visiting some amazing spots.  This is the year we also discovered Bala Lake in Wales.  It's the perfect place for paddleboard beginner's!  The site backs on to the lake, so once you are set up you can walk to the Lake and enjoy a full weekend without the hassel of travellong each day. Since we have had the van we have been to lots of different places, below is a table of my top 5!  Last summer a group of 6 families went to Talybont and the beach was amazing
          
         <h2 id="favplacestostay" >Favourite places</h2>
-        <table>
-        <tr>
-            <th class="table-title">Place</th>
-            <th class="table-title">Our Rank</th>
-        </tr>
-        <tr>
-            <!--Hyperlink links to campsite visited-->
-            <td><a href="https://glanllyn.com/">Bala Lake</a></td>
-            <td>1</td>
-        </tr>
-        <tr>
-             <!--Hyperlink links to campsite visited-->
-            <td><a href="https://moelfreview.co.uk/">Talybont</a></td>
-            <td>2</td>
-        </tr>
-        <tr>
-             <!--Hyperlink links to campsite visited-->
-            <td><a href="https://parkfootullswater.co.uk/">Pooley Bridge</a></td>
-            <td>3</td>
-        </tr>
-        <tr>
-             <!--Hyperlink links to campsite visited-->
-            <td><a href="https://www.callowtop.co.uk/">Ashbourne</a></td>
-            <td>4</td>
-        </tr>
-        <tr>
-             <!--Hyperlink links to campsite visited-->
-            <td><a href="https://celtic-camping.co.uk/">Pembrokeshire</a></td>
-            <td>5</td>
-        </tr>
-    </table>
+
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div id="card" class="card" style="width: 18rem;">
+                <img src="/Users/vickigibbison/Documents/GetIntoTech2023/Week1AboutMe/ VickiHTML/4E0633EA-A9D8-4A72-9E78-4C098C8032B1.jpeg" class="card-img-top" alt="...">
+                <div id="cardtext" class="card-body">
+                  <h5 id="buttoncolor" class="card-title">Bala Lake</h5>
+                  <p class="card-text">Glanllyn Caravan and Camping is our favourite place to stay</p>
+                  <a href="https://glanllyn.com/" class="btn btn-primary" id="buttonbackground">Bala Lake</a></a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="carousel-item">
+              <div id="card" class="card" style="width: 18rem;">
+                <img src="/Users/vickigibbison/Documents/GetIntoTech2023/Week1AboutMe/ VickiHTML/760148AB-1FFA-4684-83EE-D7C67C6A1B1B.jpeg" class="card-img-top" alt="...">
+                <div id="cardtext" class="card-body">
+                  <h5 id="buttoncolor" class="card-title">Talybont</h5>
+                  <p class="card-text">We had an amazing week at Moelfre View Caravan Park</p>
+                  <a href="https://glanllyn.com/" class="btn btn-primary" id="buttonbackground">Talybont</a></a>
+                </div>
+              </div>
+            </div>
+         
+            <div class="carousel-item">
+              <div id="card" class="card" style="width: 18rem;">
+                <img src="/Users/vickigibbison/Documents/GetIntoTech2023/Week1AboutMe/ VickiHTML/760148AB-1FFA-4684-83EE-D7C67C6A1B1B.jpeg" class="card-img-top" alt="...">
+                <div id="cardtext" class="card-body">
+                  <h5 id="buttoncolor" class="card-title">Pooley Bridge</h5>
+                  <p class="card-text">Parkfoot is at the foot of Lake Ullswater and the views are breathtaking</p>
+                  <a href="https://glanllyn.com/" class="btn btn-primary" id="buttonbackground">Pooley Bridge</a></a>
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="carousel-item">
+              <div id="card" class="card" style="width: 18rem;">
+                <img src="/Users/vickigibbison/Documents/GetIntoTech2023/Week1AboutMe/ VickiHTML/760148AB-1FFA-4684-83EE-D7C67C6A1B1B.jpeg" class="card-img-top" alt="...">
+                <div id="cardtext" class="card-body">
+                  <h5 id="buttoncolor" class="card-title">Ashbourne</h5>
+                  <p class="card-text">Callow Top is a beautiful site only an hour away and perfect for a weekend away</p>
+                  <a href="https://www.callowtop.co.uk/" class="btn btn-primary" id="buttonbackground">Ashbourne</a></a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div id="card" class="card" style="width: 18rem;">
+                <img src="/Users/vickigibbison/Documents/GetIntoTech2023/Week1AboutMe/ VickiHTML/760148AB-1FFA-4684-83EE-D7C67C6A1B1B.jpeg" class="card-img-top" alt="...">
+                <div id="cardtext" class="card-body">
+                  <h5 id="buttoncolor" class="card-title">Pembrokeshire</h5>
+                  <p class="card-text">Pembrokeshire is one of the most beautiful places I have visited in the UK</p>
+                  <a href="https://celtic-camping.co.uk/" class="btn btn-primary" id="buttonbackground">Pembrokeshire</a></a>
+                </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        
 
     <h2 id="gallery" >Pictures</h2>
 
-    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="/Users/vickigibbison/Desktop/sky course/Exersice4/images/777313E7-3570-4A1E-A67E-BB0948E96853.jpeg" class="d-block w-60 circular-image" style="width:650px;height:600px;" alt="..."> 
-          </div>
-          <div class="carousel-item">
-            <img src="/Users/vickigibbison/Desktop/sky course/Exersice4/images/DBDB1373-DF13-4568-A902-F5DE00EA5FA4.jpeg" class="d-block w-60 circular-image" style="width:650px;height:600px" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="/Users/vickigibbison/Desktop/sky course/Exersice4/images/4E0633EA-A9D8-4A72-9E78-4C098C8032B1.jpeg" class="d-block w-60 circular-image" style="width:650px;height:600px" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="/Users/vickigibbison/Desktop/sky course/Exersice4/images/4F3778C7-B0FF-40F1-B5F9-7B244146CF3D.jpeg" class="d-block w-60 circular-image" style="width:650px;height:600px" alt="...">
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+   
 
    
         </body>
-        <footer>&copy;Vicki Gibbison 2023</footer>
+        <footer id="footer">&copy;Vicki Gibbison 2023</footer>
 </html>
