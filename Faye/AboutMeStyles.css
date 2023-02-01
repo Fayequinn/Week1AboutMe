@@ -43,9 +43,10 @@ p {
 
 #favouritetitle {
     color: #FC8421;
-    text-align: left;
+    text-align: center;padding-bottom: 50px;
+    
 }
-.container{}
+
 
 table,
 th,
@@ -54,11 +55,24 @@ td {
     padding: 10px;
     text-align: center;
 }
+table{font-size: 20px;margin-left: auto;margin-right: auto;}
 
 th,
 td {
     padding: 15px
 }
+tr:nth-child(odd){background-color: white;}
+th{background-color: #20A0FF;color: white;}
+
+.tablehead{color: white; text-decoration: none; font-weight: bold; }
+
+.rowodd:hover{background-color: #FC8421;}
+.roweven:hover{background-color:#FC8421;}
+
+#carouselExample{margin-left: 25% ;margin-right: 25%;}
+#carouselExample1{margin-left: 25%;margin-right: 25%;}
+#carouselExample2{margin-left: 25%;margin-right: 25%; padding-bottom: 30px;}
+
 #footer {
     position:fixed;
     left:0;
