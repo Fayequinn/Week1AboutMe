@@ -1,20 +1,24 @@
 body {
-    font: 'Roboto', sans-serif;
+    font-family: 'Dosis', sans-serif;
+
     font-size: 20px;
     background-color: lightgrey;
     padding: 20px;
     color: black;
     text-align: center;
-    font-family:cursive
+    
     
 }
 
 h1, h2 {
     text-align: center;
-    color: darkgrey;
-    background-color: blueviolet;
-    font-style: italic;
-    font-family:cursive
+    color: #BFBFBF;
+    background-color: #5A378C;
+    font-family: 'Dosis', sans-serif;
+
+    border-style: solid;
+    border-width: 5px;
+    border-color: #BFBFBF;
     
 }
 
@@ -37,4 +41,56 @@ table {
 }
 td{
     font-weight: bold;
+}
+
+#navbar{
+    background-color: #BFBFBF !important;
+   
+    
+}
+#cardtext{
+    background-color: lightgray !important;
+    color: black;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #BFBFBF;
+}
+#buttoncolor{
+    color: #5A378C;
+    font-weight: bold;
+}
+#buttonbackground{
+    background-color: #5A378C;
+}
+#card{
+    margin: auto;
+}
+#myfamilypics{
+   
+    margin: auto;
+}
+#buttonbackground{
+    color: #BFBFBF;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #BFBFBF;   
+}
+#footer{
+    text-align: center;
+    color: #BFBFBF;
+    background-color: #5A378C;
+    font-family: 'Dosis', sans-serif;
+
+font-weight:bolder;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #BFBFBF;
+}
+#nav text{
+    color: #5A378C !important ;
+}
+.nav-link{
+    color: #5A378C !important ;   
 }
